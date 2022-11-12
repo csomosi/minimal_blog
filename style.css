@@ -1,0 +1,43 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: black;
+  color: white;
+  width: 650px;
+  margin: 0 auto;
+}
+
+main {
+  background-color: rgb(43, 43, 43);
+}
+
+.menu-container {
+  margin: auto;
+  text-align: center;
+  width: 360px;
+  font-size: 12px;
+  border-bottom: 2px solid white;
+}
+
+/* menüpontok kattintható felülete az egész gomb legyen
+rendelkezzen hover effect-el a menü
+ */
+
+.menu {
+  padding: 0;
+}
+
+.menu-item {
+  background-color: blue;
+  padding: 15px;
+  list-style: none;
+  display: inline-block;
+}
+
+.menu-item:hover {
+  color: aqua;
+  cursor: pointer;
+}
+
+footer {
+  background-color: rgb(22, 22, 22);
+}
