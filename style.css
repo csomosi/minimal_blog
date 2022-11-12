@@ -2,12 +2,10 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   background-color: black;
   color: white;
-  width: 650px;
-  margin: 0 auto;
 }
 
-main {
-  background-color: rgb(43, 43, 43);
+header {
+  margin: 25px 0;
 }
 
 .menu-container {
@@ -18,17 +16,12 @@ main {
   border-bottom: 2px solid white;
 }
 
-/* menüpontok kattintható felülete az egész gomb legyen
-rendelkezzen hover effect-el a menü
- */
-
 .menu {
   padding: 0;
 }
 
 .menu-item {
-  background-color: blue;
-  padding: 15px;
+  padding: 0 15px;
   list-style: none;
   display: inline-block;
 }
@@ -38,6 +31,34 @@ rendelkezzen hover effect-el a menü
   cursor: pointer;
 }
 
+main {
+  background-color: rgb(43, 43, 43);
+  padding: 30px 15px;
+  width: 650px;
+  margin: 0 auto;
+}
+
+h2 {
+  margin-bottom: 5px;
+}
+
+.author-style {
+  font-size: 10px;
+  color: rgb(133, 133, 133);
+}
+
+.image {
+  text-align: center;
+}
+
+.fig-caption {
+  font-style: italic;
+  font-size: 12px;
+}
+
 footer {
   background-color: rgb(22, 22, 22);
+  padding: 10px 0 30px 0;
+  text-align: center;
+  font-size: 12px;
 }
